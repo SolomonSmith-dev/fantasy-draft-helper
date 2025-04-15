@@ -1,0 +1,5 @@
+# This CSV holds test data. Replace this later with real stats.
+id,name,position,team,adp,points
+1,Justin Jefferson,WR,MIN,1,300
+2,Christian McCaffrey,RB,SF,2,330
+3,Patrick Mahomes,QB,KC,3,350

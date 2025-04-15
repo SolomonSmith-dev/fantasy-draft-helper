@@ -1,4 +1,15 @@
-venv/
+# .gitignore
+# Prevent these files/folders from being tracked by Git
+
+# Python junk
 __pycache__/
-.env
+*.pyc
+
+# Virtual environments
+venv/
+
+# macOS stuff
 .DS_Store
+
+# Environment files
+.env

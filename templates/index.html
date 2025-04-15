@@ -1,0 +1,18 @@
+<!-- index.html -->
+<!-- This is the HTML page that displays your list of players -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fantasy Draft Helper</title>
+</head>
+<body>
+  <h1>Available Players</h1>
+  <ul>
+    {% for player in players %}
+      <!-- Use Jinja2 templating to loop over each player and show their info -->
+      <li>{{ player['name'] }} - {{ player['position'] }} - {{ player['team'] }}</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
